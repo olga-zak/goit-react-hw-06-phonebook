@@ -9,7 +9,7 @@ import { useState } from 'react';
 // Импортируем хук
 import { useDispatch } from 'react-redux';
 // Импортируем генератор экшена
-import { addContact } from 'redux/contacts/contacts-actions';
+import { addContact } from 'redux/contacts/contactsSlice';
 
 import { Form, FormLabel, Input, Button } from './ContactForm.styled';
 

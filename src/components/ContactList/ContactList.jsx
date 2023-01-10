@@ -8,6 +8,7 @@ import { getFilterQueue } from 'redux/filter/filter-selector';
 export const ContactList = () => {
   //const contacts = useSelector(state => state.contacts);
   const contacts = useSelector(getContacts);
+
   const filterValue = useSelector(getFilterQueue);
 
   const filteredContacts = contacts.filter(({ name }) =>

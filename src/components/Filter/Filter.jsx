@@ -2,7 +2,7 @@ import { FilterField } from './Filter.styled';
 import { Input } from 'components/ContactForm/ContactForm.styled';
 
 import { useDispatch } from 'react-redux';
-import { getFilterValue } from 'redux/filter/filter-actions';
+import { getFilterValue } from 'redux/filter/filterSlice';
 
 export const Filter = () => {
   const dispatch = useDispatch();
